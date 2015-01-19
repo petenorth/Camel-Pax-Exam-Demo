@@ -12,7 +12,7 @@
     <modules>
         <module>pom</module>
         <module>integration</module>
-        <module>feature</module>
+        <!--<module>feature</module>-->
         <module>entities</module>
     </modules>
     

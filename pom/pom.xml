@@ -22,8 +22,8 @@
 		<dependency.cxf.version>2.6.3</dependency.cxf.version>
 		<dependecy.commons-dbcp.version>1.4</dependecy.commons-dbcp.version>
 		<dependency.openjpa.version>2.2.0</dependency.openjpa.version>
-		<dependency.aries-jpa.version>1.0.1</dependency.aries-jpa.version>
-		<dependency.aries-proxy.version>1.0.1</dependency.aries-proxy.version>
+		<dependency.aries-jpa.version>1.0.1.redhat-611412</dependency.aries-jpa.version>
+		<dependency.aries-proxy.version>1.0.1.redhat-611412</dependency.aries-proxy.version>
 
 		<dependency.commons-io.version>2.3</dependency.commons-io.version>
 		<dependency.commons-beanutils.version>1.8.3</dependency.commons-beanutils.version>
