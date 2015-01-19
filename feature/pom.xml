@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>de.nierbeck.camel.exam.demo</groupId>
+        <groupId>org.pfry</groupId>
         <artifactId>pom</artifactId>
         <version>0.1.0-SNAPSHOT</version>
         <relativePath>../pom</relativePath>
@@ -72,12 +72,12 @@
     <description>A feature defining the dependencies and artefacts of the current DataCombination Module</description>
     <dependencies>
         <dependency>
-            <groupId>de.nierbeck.camel.exam.demo</groupId>
+            <groupId>org.pfry</groupId>
             <artifactId>route-control</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>de.nierbeck.camel.exam.demo</groupId>
+            <groupId>org.pfry</groupId>
             <artifactId>entities</artifactId>
             <version>${project.version}</version>
         </dependency>

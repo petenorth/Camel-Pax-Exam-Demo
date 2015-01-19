@@ -9,13 +9,12 @@
            http://cxf.apache.org/blueprint/jaxws http://cxf.apache.org/schemas/blueprint/jaxws.xsd
            http://cxf.apache.org/blueprint/core http://cxf.apache.org/schemas/blueprint/core.xsd">
 
-	<bean id="orderMergingJpaDao"
-		class="de.nierbeck.camel.exam.demo.entities.dao.jpa.CamelMessageStoreJpaDao">
+	<bean id="personServiceJpa"
+		class="org.pfry.service.jpa.PersonServiceJpa">
 		<jpa:context property="em" unitname="camelStore" />
 		<tx:transaction method="*" value="Required" />
 	</bean>
 
-	<service id="orderMergingDao" ref="orderMergingJpaDao"
-		interface="de.nierbeck.camel.exam.demo.entities.dao.CamelMessageStoreDao" />
-
+	<service id="personService" ref="personServiceJpa"
+		interface="org.pfry.service.PersonService" />
 </blueprint>
