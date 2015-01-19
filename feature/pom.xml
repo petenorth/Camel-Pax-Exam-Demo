@@ -73,7 +73,7 @@
     <dependencies>
         <dependency>
             <groupId>org.pfry</groupId>
-            <artifactId>route-control</artifactId>
+            <artifactId>integration</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
